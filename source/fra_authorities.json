@@ -1,0 +1,449 @@
+[
+ {
+  "id": "avon",
+  "name": "Avon Fire Authority",
+  "area": "Avon",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "bedfordshire",
+  "name": "Bedfordshire Fire & Rescue Authority",
+  "area": "Bedfordshire",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "buckinghamshire",
+  "name": "Buckinghamshire & Milton Keynes Fire Authority",
+  "area": "Buckinghamshire & Milton Keynes",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "cambridgeshire",
+  "name": "Cambridgeshire & Peterborough Fire Authority",
+  "area": "Cambridgeshire & Peterborough",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "cheshire",
+  "name": "Cheshire Fire Authority",
+  "area": "Cheshire",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "cleveland",
+  "name": "Cleveland Fire Authority",
+  "area": "Cleveland",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true,
+  "note_extra": "RCVDA patch. Trading arm Cleveland Fire Brigade Risk Management Services CIC (GB-COH-07583911) is a separate body, not the Authority."
+ },
+ {
+  "id": "county-durham-darlington",
+  "name": "County Durham & Darlington Fire & Rescue Authority",
+  "area": "County Durham & Darlington",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "derbyshire",
+  "name": "Derbyshire Fire & Rescue Authority",
+  "area": "Derbyshire",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "devon-somerset",
+  "name": "Devon & Somerset Fire & Rescue Authority",
+  "area": "Devon & Somerset",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "dorset-wiltshire",
+  "name": "Dorset & Wiltshire Fire & Rescue Authority",
+  "area": "Dorset & Wiltshire",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "east-sussex",
+  "name": "East Sussex Fire Authority",
+  "area": "East Sussex",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "hampshire-iow",
+  "name": "Hampshire & Isle of Wight Fire & Rescue Authority",
+  "area": "Hampshire & Isle of Wight",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "hereford-worcester",
+  "name": "Hereford & Worcester Fire & Rescue Authority",
+  "area": "Hereford & Worcester",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "humberside",
+  "name": "Humberside Fire Authority",
+  "area": "Humberside",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "lancashire",
+  "name": "Lancashire Combined Fire Authority",
+  "area": "Lancashire",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "leicestershire",
+  "name": "Leicester, Leicestershire & Rutland Combined Fire Authority",
+  "area": "Leicester, Leicestershire & Rutland",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true,
+  "ror": "XI-ROR-00k8z3892"
+ },
+ {
+  "id": "london",
+  "name": "London Fire Commissioner",
+  "area": "Greater London",
+  "nation": "England",
+  "model": "london-commissioner",
+  "held_by": "London Fire Commissioner (under Mayor of London)",
+  "mint": true
+ },
+ {
+  "id": "merseyside",
+  "name": "Merseyside Fire & Rescue Authority",
+  "area": "Merseyside",
+  "nation": "England",
+  "model": "metropolitan-fra",
+  "held_by": "Metropolitan fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "mid-west-wales",
+  "name": "Mid & West Wales Fire & Rescue Authority",
+  "area": "Mid & West Wales",
+  "nation": "Wales",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "north-wales",
+  "name": "North Wales Fire & Rescue Authority",
+  "area": "North Wales",
+  "nation": "Wales",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "nottinghamshire",
+  "name": "Nottinghamshire & City of Nottingham Fire & Rescue Authority",
+  "area": "Nottinghamshire & City of Nottingham",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "royal-berkshire",
+  "name": "Royal Berkshire Fire Authority",
+  "area": "Royal Berkshire",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "scotland",
+  "name": "Scottish Fire and Rescue Service",
+  "area": "Scotland",
+  "nation": "Scotland",
+  "model": "scotland-national",
+  "held_by": "Scottish Ministers / SFRS Board",
+  "mint": true
+ },
+ {
+  "id": "shropshire",
+  "name": "Shropshire & Wrekin Fire & Rescue Authority",
+  "area": "Shropshire & Wrekin",
+  "nation": "England",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "south-wales",
+  "name": "South Wales Fire & Rescue Authority",
+  "area": "South Wales",
+  "nation": "Wales",
+  "model": "combined-fra",
+  "held_by": "Combined fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "south-yorkshire",
+  "name": "South Yorkshire Fire & Rescue Authority",
+  "area": "South Yorkshire",
+  "nation": "England",
+  "model": "metropolitan-fra",
+  "held_by": "Metropolitan fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "tyne-wear",
+  "name": "Tyne & Wear Fire & Rescue Authority",
+  "area": "Tyne & Wear",
+  "nation": "England",
+  "model": "metropolitan-fra",
+  "held_by": "Metropolitan fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "west-midlands",
+  "name": "West Midlands Fire & Rescue Authority",
+  "area": "West Midlands",
+  "nation": "England",
+  "model": "metropolitan-fra",
+  "held_by": "Metropolitan fire & rescue authority (15 councillors + WM PCC representative + 2 co-opted members)",
+  "mint": true
+ },
+ {
+  "id": "west-yorkshire",
+  "name": "West Yorkshire Fire & Rescue Authority",
+  "area": "West Yorkshire",
+  "nation": "England",
+  "model": "metropolitan-fra",
+  "held_by": "Metropolitan fire & rescue authority (constituent councils)",
+  "mint": true
+ },
+ {
+  "id": "cornwall",
+  "name": "Cornwall Council (as fire & rescue authority)",
+  "area": "Cornwall",
+  "nation": "England",
+  "model": "unitary-fra",
+  "held_by": "Cornwall Council",
+  "ref_id": "GB-LAE-CON"
+ },
+ {
+  "id": "gloucestershire",
+  "name": "Gloucestershire County Council (as fire & rescue authority)",
+  "area": "Gloucestershire",
+  "nation": "England",
+  "model": "county-fra",
+  "held_by": "Gloucestershire County Council",
+  "ref_id": "GB-LAE-GLS"
+ },
+ {
+  "id": "hertfordshire",
+  "name": "Hertfordshire County Council (as fire & rescue authority)",
+  "area": "Hertfordshire",
+  "nation": "England",
+  "model": "county-fra",
+  "held_by": "Hertfordshire County Council",
+  "ref_id": "GB-LAE-HRT"
+ },
+ {
+  "id": "isles-of-scilly",
+  "name": "Council of the Isles of Scilly (as fire & rescue authority)",
+  "area": "Isles of Scilly",
+  "nation": "England",
+  "model": "unitary-fra",
+  "held_by": "Council of the Isles of Scilly",
+  "ref_id": "GB-LAE-IOS"
+ },
+ {
+  "id": "kent",
+  "name": "Kent County Council (as fire & rescue authority)",
+  "area": "Kent",
+  "nation": "England",
+  "model": "county-fra",
+  "held_by": "Kent County Council",
+  "ref_id": "GB-LAE-KEN"
+ },
+ {
+  "id": "lincolnshire",
+  "name": "Lincolnshire County Council (as fire & rescue authority)",
+  "area": "Lincolnshire",
+  "nation": "England",
+  "model": "county-fra",
+  "held_by": "Lincolnshire County Council",
+  "ref_id": "GB-LAE-LIN"
+ },
+ {
+  "id": "norfolk",
+  "name": "Norfolk County Council (as fire & rescue authority)",
+  "area": "Norfolk",
+  "nation": "England",
+  "model": "county-fra",
+  "held_by": "Norfolk County Council",
+  "ref_id": "GB-LAE-NFK"
+ },
+ {
+  "id": "northumberland",
+  "name": "Northumberland County Council (as fire & rescue authority)",
+  "area": "Northumberland",
+  "nation": "England",
+  "model": "unitary-fra",
+  "held_by": "Northumberland County Council",
+  "ref_id": "GB-LAE-NBL"
+ },
+ {
+  "id": "oxfordshire",
+  "name": "Oxfordshire County Council (as fire & rescue authority)",
+  "area": "Oxfordshire",
+  "nation": "England",
+  "model": "county-fra",
+  "held_by": "Oxfordshire County Council",
+  "ref_id": "GB-LAE-OXF"
+ },
+ {
+  "id": "suffolk",
+  "name": "Suffolk County Council (as fire & rescue authority)",
+  "area": "Suffolk",
+  "nation": "England",
+  "model": "county-fra",
+  "held_by": "Suffolk County Council",
+  "ref_id": "GB-LAE-SFK"
+ },
+ {
+  "id": "surrey",
+  "name": "Surrey County Council (as fire & rescue authority)",
+  "area": "Surrey",
+  "nation": "England",
+  "model": "county-fra",
+  "held_by": "Surrey County Council",
+  "ref_id": "GB-LAE-SRY"
+ },
+ {
+  "id": "warwickshire",
+  "name": "Warwickshire County Council (as fire & rescue authority)",
+  "area": "Warwickshire",
+  "nation": "England",
+  "model": "county-fra",
+  "held_by": "Warwickshire County Council",
+  "ref_id": "GB-LAE-WAR"
+ },
+ {
+  "id": "west-sussex",
+  "name": "West Sussex County Council (as fire & rescue authority)",
+  "area": "West Sussex",
+  "nation": "England",
+  "model": "county-fra",
+  "held_by": "West Sussex County Council",
+  "ref_id": "GB-LAE-WSX"
+ },
+ {
+  "id": "cumbria",
+  "name": "Cumbria Police, Fire & Crime Commissioner (as fire & rescue authority)",
+  "area": "Cumbria",
+  "nation": "England",
+  "model": "pfcc",
+  "held_by": "Police, Fire & Crime Commissioner",
+  "ref_id": "GB-OPCC-00006",
+  "paired_police_id": "GB-OPCC-00006"
+ },
+ {
+  "id": "essex",
+  "name": "Essex Police, Fire & Crime Commissioner (as fire & rescue authority)",
+  "area": "Essex",
+  "nation": "England",
+  "model": "pfcc",
+  "held_by": "Police, Fire & Crime Commissioner",
+  "ref_id": "GB-OPCC-00012",
+  "paired_police_id": "GB-OPCC-00012"
+ },
+ {
+  "id": "northamptonshire",
+  "name": "Northamptonshire Police, Fire & Crime Commissioner (as fire & rescue authority)",
+  "area": "Northamptonshire",
+  "nation": "England",
+  "model": "pfcc",
+  "held_by": "Police, Fire & Crime Commissioner",
+  "ref_id": "GB-OPCC-00026",
+  "paired_police_id": "GB-OPCC-00026"
+ },
+ {
+  "id": "staffordshire",
+  "name": "Staffordshire Police, Fire & Crime Commissioner (as fire & rescue authority)",
+  "area": "Staffordshire",
+  "nation": "England",
+  "model": "pfcc",
+  "held_by": "Police, Fire & Crime Commissioner",
+  "ref_id": "GB-OPCC-00030",
+  "paired_police_id": "GB-OPCC-00030"
+ },
+ {
+  "id": "greater-manchester",
+  "name": "Greater Manchester Combined Authority (Mayor as fire & rescue authority)",
+  "area": "Greater Manchester",
+  "nation": "England",
+  "model": "mayoral",
+  "held_by": "Mayor of Greater Manchester",
+  "ref_id": "GB-LAE-GMCA"
+ },
+ {
+  "id": "york-north-yorkshire",
+  "name": "York & North Yorkshire Mayoral Combined Authority (fire & rescue functions)",
+  "area": "York & North Yorkshire",
+  "nation": "England",
+  "model": "mayoral",
+  "held_by": "Mayor of York & North Yorkshire",
+  "ref_id": "GB-UKLA-YNYC"
+ },
+ {
+  "id": "northern-ireland",
+  "name": "Northern Ireland Fire & Rescue Service",
+  "area": "Northern Ireland",
+  "nation": "N. Ireland",
+  "model": "ni",
+  "held_by": "Fire Authority for Northern Ireland (Dept of Health)",
+  "ref_id": "GB-GOR-OT759"
+ }
+]

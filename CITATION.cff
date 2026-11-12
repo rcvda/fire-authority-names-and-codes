@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: UK Fire & Rescue Authorities — Names and Codes (GB-FRA)
+message: If you use this register, please cite it as below.
+type: dataset
+authors:
+  - family-names: Neal
+    given-names: Peter
+    affiliation: Redcar & Cleveland Voluntary Development Agency (RCVDA)
+    orcid: https://orcid.org/0009-0005-8101-5785
+repository-code: https://github.com/rcvda/fire-authority-names-and-codes
+license: OGL-UK-3.0
+date-released: 2026-11-12
+preferred-citation:
+  type: dataset
+  title: UK Fire & Rescue Authorities — Names and Codes (GB-FRA)
+  authors:
+    - family-names: Neal
+      given-names: Peter
+      orcid: https://orcid.org/0009-0005-8101-5785
+  publisher:
+    name: Redcar & Cleveland Voluntary Development Agency (RCVDA)
+  year: 2026
+  url: https://github.com/rcvda/fire-authority-names-and-codes
