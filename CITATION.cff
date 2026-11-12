@@ -9,6 +9,7 @@ authors:
     orcid: https://orcid.org/0009-0005-8101-5785
 repository-code: https://github.com/rcvda/fire-authority-names-and-codes
 license: OGL-UK-3.0
+doi: 10.5281/zenodo.24170446
 date-released: 2026-11-12
 preferred-citation:
   type: dataset
@@ -19,5 +20,6 @@ preferred-citation:
       orcid: https://orcid.org/0009-0005-8101-5785
   publisher:
     name: Redcar & Cleveland Voluntary Development Agency (RCVDA)
+  doi: 10.5281/zenodo.24170446
   year: 2026
   url: https://github.com/rcvda/fire-authority-names-and-codes

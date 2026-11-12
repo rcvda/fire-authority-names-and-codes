@@ -38,3 +38,6 @@ Open Government Licence v3.0 (the data derives from the Find That Charity regist
 
 ### Relevance
 Used for linking UK voluntary-sector and public-sector organisation data, in the same ecosystem as Find That Charity and 360Giving. Sibling to RCVDA's police force register (`GB-POL`) and police & crime commissioner register (`GB-OPCC`); where a Police, Fire & Crime Commissioner holds fire, the fire record references the same `GB-OPCC` body. Modelled on mySociety's `uk_local_authority_names_and_codes`.
+
+### Archived copy
+Archived with a DOI: https://doi.org/10.5281/zenodo.24170446
