@@ -7,11 +7,11 @@ How the register is built. Every row is reproducible from authoritative, openly-
 1. **UK fire & rescue authority list and governance model** — `source/fra_authorities.json`. The 49 UK fire and rescue authorities and which governance model each sits under (combined / metropolitan fire authority; county or unitary council as FRA; Police, Fire & Crime Commissioner; mayoral combined authority; national service). Governance models from the Home Office *Fire and Rescue National Framework for England* (May 2018) and the LGA fire-governance guide; current PFCC-fire and mayoral-fire assignments from the Association of Police and Crime Commissioners (2026). Held copies in `evidence/`.
 2. **Find That Charity bulk cache (2026-09-13)** — used to establish that no territorial fire and rescue authority holds a usable existing identifier. The cache confirms: **zero** fire authorities in the local-authority register (`GB-LAE`); the only fire body in the government-organisation register (`GB-GOR`) is the Fire Authority for Northern Ireland (`GB-GOR-OT759`); Leicestershire's FRA appears only under a ROR id; every other "fire" registration is a satellite (museum trust, benevolent fund, or a trading arm such as Cleveland Fire Brigade Risk Management Services CIC `GB-COH-07583911`), not the statutory authority.
 3. **UK government-organisation register (GB-GOR)** — held in `source/gb_gor_government-organisation.csv`, used to (a) reference bodies that already have a code and (b) cross-check that no mint duplicates an existing identifier.
-4. **ONS Fire and Rescue Authorities Names and Codes** (Open Geography Portal) — to be added to populate `ons_fra_code` (roadmap).
+4. **ONS Fire and Rescue Authorities (December 2025) Names and Codes** (Open Geography Portal) — held in `source/fra_names_codes_2025.csv`; provides `FRA25CD`, joined by authority area (with a small alias map) to populate `ons_fra_code`. Vintage changes annually.
 
 ## Build
 
-`build_register.py` reads `source/fra_authorities.json` and the frozen codes in `source/code_assignments.csv`, applies the mint-vs-reference rule per governance model, and emits `data/register.csv`.
+`build_register.py` reads `source/fra_authorities.json` and the frozen codes in `source/code_assignments.csv`, applies the mint-vs-reference rule per governance model, joins the ONS FRA code from `source/fra_names_codes_2025.csv` by area name (with a small alias map for the shorter ONS labels — e.g. York & North Yorkshire → North Yorkshire, Staffordshire → Stoke-on-Trent and Staffordshire), and emits `data/register.csv`.
 
 Reproduce:
 

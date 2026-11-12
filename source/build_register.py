@@ -6,6 +6,23 @@ CODES = os.path.join(SDIR, "code_assignments.csv")
 TODAY = "2026-11-12"
 A = json.load(open(SRC))
 ledger = {r["fra_id"]: r["gb_fra"] for r in csv.DictReader(open(CODES)) if not r["fra_id"].startswith("_withdrawn_")}
+FRA_FILE = os.path.join(SDIR, "fra_names_codes_2025.csv")
+def _norm(s): return " ".join(str(s).replace("&", "and").lower().split())
+ons = {}
+if os.path.exists(FRA_FILE):
+    for r in csv.DictReader(open(FRA_FILE, encoding="utf-8-sig")):
+        ons[_norm(r["FRA25NM"])] = r["FRA25CD"]
+ONS_ALIAS = {
+    "leicester, leicestershire and rutland": "leicestershire",
+    "shropshire and wrekin": "shropshire",
+    "greater london": "london fire and emergency planning authority",
+    "northern ireland": "northern ireland fire and rescue service",
+    "staffordshire": "stoke-on-trent and staffordshire",
+    "cambridgeshire and peterborough": "cambridgeshire",
+    "york and north yorkshire": "north yorkshire",
+}
+def ons_code(area):
+    k = _norm(area); k = ONS_ALIAS.get(k, k); return ons.get(k, "")
 HDR = ["org_id","name","body_type","fire_rescue_authority_area","ons_fra_code","fra_function_held_by",
        "paired_police_id","status","issued_by","date_issued","evidence","notes"]
 FTC = "no entry in GB-LAE / GB-GOR / Charity / Companies House / FCA (Find That Charity bulk cache 2026-09-13)"
@@ -42,7 +59,7 @@ def build(x):
             note = f"NOT minted: function held by {held}; keyed to its own local-authority ID {ref}."
     if extra:
         note = note + " " + extra
-    return [oid, x["name"], "fra", area, "", held, paired, "Active", "RCVDA", TODAY, evid, note]
+    return [oid, x["name"], "fra", area, ons_code(area), held, paired, "Active", "RCVDA", TODAY, evid, note]
 rows = [build(x) for x in A]
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 with open(OUT, "w", newline="") as fh:

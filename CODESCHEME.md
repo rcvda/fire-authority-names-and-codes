@@ -14,7 +14,7 @@ GB-FRA-#####
 
 Five-digit, zero-padded sequence. Codes are:
 
-- **Opaque.** They carry no geographic or alphabetical meaning. (The ONS Fire and Rescue Authority code, once sourced, is carried alongside in `ons_fra_code` as a lookup, never as the identifier.)
+- **Opaque.** They carry no geographic or alphabetical meaning. (The ONS Fire and Rescue Authority code `FRA25CD` is carried alongside in `ons_fra_code` as a lookup, never as the identifier.)
 - **Permanent and frozen.** The assignment lives in [`source/code_assignments.csv`](source/code_assignments.csv). A code, once issued, is never reissued or renumbered — even if an authority is renamed, merged or dissolved. The builder reads the frozen ledger; new bodies append the next number. Adding a body never reshuffles existing codes.
 - **Withdrawn codes are retained.** If a minted body is later found to hold an existing identifier (as happened with PSNI → `GB-GOR-OT657` on the police side), its `GB-FRA` number is marked withdrawn in the ledger and never reused; the sequence carries a deliberate gap.
 
@@ -29,7 +29,7 @@ Five-digit, zero-padded sequence. Codes are:
 
 ## Relationship to other schemes
 
-- **Sideways:** `ons_fra_code` links to ONS Fire and Rescue Authority geography (to be added — see README roadmap).
+- **Sideways:** `ons_fra_code` holds the ONS Fire and Rescue Authority code (`FRA25CD`, December 2025) — a geography lookup, never the identifier.
 - **Governance:** `paired_police_id` links a fire authority held by a Police, Fire & Crime Commissioner to that commissioner's `GB-OPCC` record, so the police↔fire governance link is explicit.
 
 ## Fields (`data/register.csv`)

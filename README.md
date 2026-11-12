@@ -32,6 +32,7 @@ All 49 UK fire and rescue authorities — 44 in England, 3 in Wales, the Scottis
 | [`data/register.csv`](data/register.csv) | The register: one row per fire & rescue authority, with its `GB-FRA` code (or the referenced external id), area, the body that holds the fire function, and — for PFCC areas — the paired `GB-OPCC` police-governance id. |
 | [`source/fra_authorities.json`](source/fra_authorities.json) | The authoritative source list of UK fire & rescue authorities and their governance model. |
 | [`source/code_assignments.csv`](source/code_assignments.csv) | The permanence ledger — the frozen code (or external reference id) assigned to each body. Codes are never reissued or renumbered. |
+| [`source/fra_names_codes_2025.csv`](source/fra_names_codes_2025.csv) | ONS Fire and Rescue Authorities (December 2025) Names and Codes (Open Geography Portal), `FRA25CD` / `FRA25NM`. Joined by area to populate `ons_fra_code`. |
 | [`source/gb_gor_government-organisation.csv`](source/gb_gor_government-organisation.csv) | Held copy of the GB-GOR government-organisation register, used to cross-check that no mint duplicates an existing identifier. |
 | `evidence/` | Held copies of the governance-model sources (Home Office *Fire and Rescue National Framework for England*; APCC fire & emergency services; LGA guide). |
 
@@ -52,7 +53,7 @@ Open Government Licence v3.0 — see [LICENSE](LICENSE).
 ## Roadmap
 
 1. Hold and maintain the register (done).
-2. Add the ONS **Fire and Rescue Authorities Names and Codes** geography (Open Geography Portal) to populate `ons_fra_code` as a sideways lookup (the fire equivalent of the ONS Police Force Area code in the `GB-POL` register).
+2. ONS **Fire and Rescue Authorities (December 2025) Names and Codes** geography added — `ons_fra_code` populated (`FRA25CD`), the fire equivalent of the ONS Police Force Area code in the `GB-POL` register (done).
 3. Archive with a Zenodo DOI (author Peter Neal / ORCID, publisher RCVDA, OGL v3.0).
 4. Register the `GB-FRA` scheme with [org-id.guide](https://org-id.guide), alongside the `GB-POL` and `GB-OPCC` submissions.
 
