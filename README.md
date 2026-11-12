@@ -1,5 +1,7 @@
 # UK Fire & Rescue Authorities — Names and Codes (GB-FRA)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24170446.svg)](https://doi.org/10.5281/zenodo.24170446)
+
 > **Status: work in progress.** The `GB-FRA` scheme is **not yet registered** with [org-id.guide](https://org-id.guide). See [Roadmap](#roadmap).
 
 An open, coded register of **UK fire and rescue authorities** — every statutory fire and rescue authority (FRA) in England, Wales, Scotland and Northern Ireland — with an identifier for each body that has no usable identifier of its own.
@@ -54,7 +56,7 @@ Open Government Licence v3.0 — see [LICENSE](LICENSE).
 
 1. Hold and maintain the register (done).
 2. ONS **Fire and Rescue Authorities (December 2025) Names and Codes** geography added — `ons_fra_code` populated (`FRA25CD`), the fire equivalent of the ONS Police Force Area code in the `GB-POL` register (done).
-3. Archive with a Zenodo DOI (author Peter Neal / ORCID, publisher RCVDA, OGL v3.0).
+3. Archived with a Zenodo DOI — [10.5281/zenodo.24170446](https://doi.org/10.5281/zenodo.24170446) (author Peter Neal / ORCID, publisher RCVDA, OGL v3.0) (done).
 4. Register the `GB-FRA` scheme with [org-id.guide](https://org-id.guide), alongside the `GB-POL` and `GB-OPCC` submissions.
 
 Note: the English Devolution and Community Empowerment Act 2026 and local government reorganisation are moving fire governance (county councils merging into unitaries; further mayoral transfers). Superseded bodies will be retired (code kept, status updated) and successors minted or referenced; nothing is renumbered.
